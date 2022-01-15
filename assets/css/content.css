@@ -1,0 +1,81 @@
+.head__infor_content {
+    text-align: center;
+    margin: 40px 0;
+}
+
+.head__infor_text-content {
+    font-size: 3rem;
+    font-weight: 500;
+    
+}
+
+.body__infor_content {
+    text-align: justify;
+
+}
+
+.body__infor_text-content {
+    color: var(--color-content);
+    font-size: 1.7rem;
+    font-weight: 400;
+    line-height: 1.6;
+}
+
+.handbook_content {
+    background-color: var(--background-color);
+    width: 100%;
+    padding: 10px 0 25px;
+    margin-top: 40px;
+}
+
+
+
+.title_handbook {
+    padding: 10px 0;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    font-size: 3rem;
+    font-weight: 500;
+    letter-spacing: 1.2;
+}
+
+
+
+.icon_handbook {
+    margin: 0 5px;
+    opacity: 0.6;
+    color: var(--color-icon);
+    margin: 0 10px;
+}
+
+
+.handbook_content--verone {
+    display: flex;        
+    
+}
+
+.handbook_link--img {
+    display: block;
+    text-align: center;
+    transition: transform linear 0.1s;
+}
+
+.handbook_link--img:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    opacity: 0.9;
+}
+
+.handbook_content--vernd {
+    display: flex;
+}
+
+.handbook_link--img-thol {
+    border: 4px solid #fff;
+    display: block;
+    width: 350px;
+    max-width: 100%;
+}
+
+

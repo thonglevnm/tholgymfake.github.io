@@ -1,0 +1,42 @@
+.knowledge_gym {
+    padding: 0 25px;
+    background-color: var(--background-color);
+}
+
+.knowledge_gym-title {
+    text-align: center;
+    font-size: 3rem;
+    position: relative;
+    padding: 40px 0;
+}
+
+
+
+
+.knowledge-icon {
+
+    position: absolute;
+    font-size: 2.7rem;
+    opacity: 0.6;
+    color: var(--color-icon);
+    left: 33.5%;
+    top: 35%;
+}
+
+.knowledge_gym-content {
+    font-size: 1.6rem;
+    line-height: 1.6;
+}
+
+.knowledge_gym-img {
+    max-width: 100%;
+    border-radius: 6px;
+    border: 4px solid #fff;
+    transition: transform linear 0.1s;
+}
+
+.knowledge_gym-img:hover {
+    box-shadow: 0 0 8px rgba(0, 0, 0, 0.4);
+    opacity: 0.9;
+    transform: translateY(-2px);
+}

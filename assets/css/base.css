@@ -1,0 +1,27 @@
+:root {
+    --color-content: #0a0a0a; 
+    --color-title: #282828;
+    --color-spc: #ff6600;
+    --white-color: #fff;
+    --line-height:10rem;
+    --color-icon:#0e0e0e;
+    --background-color:rgb(255, 226, 197);
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+}
+
+html {
+    font-size: 62.5%;
+    font-family: 'Roboto', sans-serif;
+    overflow-x: hidden;
+}
+
+.mt-15 {
+    margin-top: 15px;
+}

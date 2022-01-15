@@ -1,0 +1,37 @@
+.service_thol {
+    margin: 70px 0;
+    padding: 15px 0;
+    background-color: var(--background-color);
+}
+
+.service_link {
+    padding: 15px ;
+    text-align: center;
+    display: block;
+}
+
+.service_thol-title {
+    text-align: center;
+    font-size: 3rem;
+
+}
+
+.service_thol-img {
+    max-width: 100%;
+    width: 300px;
+    border: 4px solid #fff;
+    transition: transform linear 0.1s;
+
+}
+
+
+.service_thol-img:hover {
+    box-shadow: 0 0 8px rgba(0, 0, 0, 0.4);
+    opacity: 0.9;
+    transform: translateY(-2px);
+}
+
+.service_icon {
+    margin: 0 10px;
+    color: var(--color-icon);
+}

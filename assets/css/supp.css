@@ -1,0 +1,49 @@
+.supp {
+    background-color: #f8b864;
+    padding: 0 15px;
+}
+.supp_title {
+ text-align: center;
+ padding-top: 20px;
+ margin: 70px 0 20px 0;
+ font-size: 3rem;
+}
+
+.supp-icon {
+    margin: 0 10px;
+    color: #666666;
+}
+
+.supp_link {
+    display: block;
+    position: relative;
+}
+
+.supp_link-img {
+    max-width: 100%;
+    transition: transform;
+    border: 3px solid #fff;
+}
+
+.supp_link-img:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+.supp-buy-icon {
+    content: "";
+    position: absolute;
+    left: 45%;
+    top: 45%;
+    z-index: 2;
+    font-size: 4rem;
+    color: #ffffff;
+    background-color: var(--color-spc);
+    padding: 8px 14px;
+    border-radius: 6px;
+    opacity: 0.7;
+}
+
+.supp_link:hover .supp-buy-icon {
+    opacity: 1;
+}
