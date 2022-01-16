@@ -12,7 +12,7 @@
 
 .service_thol-title {
     text-align: center;
-    font-size: 3rem;
+    font-size: var(--title-content);
 
 }
 
@@ -33,5 +33,5 @@
 
 .service_icon {
     margin: 0 10px;
-    color: var(--color-icon);
+    color: rgb(78, 78, 78);
 }

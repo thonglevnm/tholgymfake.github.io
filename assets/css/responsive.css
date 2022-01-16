@@ -13,18 +13,59 @@
         width: 15px;
         border-right: 2px solid rgb(65, 65, 65);
     }
+    .maxim {
+        height: 100%;
+    }
 }
 /* TABLET */
 @media (min-width:740px) and (max-width:1023px) {
-   
+    .maxim {
+        height: 100%;
+    }
+    
 }
 
 /* MOBILE AND TABLET*/
 @media (max-width:1023px) {
-    
+
+    .head_img {
+        text-align: center;
+    }
+
+    .img_slider-thol {
+        height: 40vh;
+    }
+
+    .lesson_plan {
+        background-image: linear-gradient(0, rgb(255, 195, 220), rgb(148, 221, 255));
+    }
+
+    .supp_link {
+        padding: 20px;
+    }
+
+  
 }
 /* MOBILE */
 @media (max-width:739px) { 
+    .navbar-icon {
+        margin-left: 5px;
+    }
 
-}
+    .handbook_content--verone {
+        justify-content: center;
+    }
     
+    .body__infor_content {
+        padding: 0 10px;
+    }
+
+    .maxim-content {
+        margin: 20px 20px;
+    }
+    
+    .nav_mobile {
+        width: 250px;
+    }
+    
+}

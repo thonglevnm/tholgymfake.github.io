@@ -4,7 +4,7 @@
 }
 
 .head__infor_text-content {
-    font-size: 3rem;
+    font-size: var(--title-content);
     font-weight: 500;
     
 }
@@ -35,7 +35,7 @@
     position: relative;
     display: flex;
     justify-content: center;
-    font-size: 3rem;
+    font-size: var(--title-content);
     font-weight: 500;
     letter-spacing: 1.2;
 }
@@ -52,7 +52,7 @@
 
 .handbook_content--verone {
     display: flex;        
-    
+    flex-wrap: wrap;
 }
 
 .handbook_link--img {
@@ -69,6 +69,7 @@
 
 .handbook_content--vernd {
     display: flex;
+    flex-wrap: wrap;
 }
 
 .handbook_link--img-thol {

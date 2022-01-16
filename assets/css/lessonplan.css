@@ -11,7 +11,7 @@
 .lesson_plan-title {
     position: relative;
     text-align: center;
-    font-size: 3rem;
+    font-size: var(--title-content);
     margin: 40px 0 15px;
     padding-top: 15px;
 }

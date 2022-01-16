@@ -8,6 +8,7 @@
 
 .head_img-thol {
     width: 152px;
+    line-height: var(--line-height);
 }
 
 .head_nav {
@@ -34,7 +35,7 @@
     display: flex;
     justify-content: space-between;
     text-align: center;
-    margin: 0 -50px;
+    margin: 0 -100px;
 }
 
 .head_link-rgt {
@@ -44,7 +45,7 @@
     border-radius: 100px;
     border: #f17609 1px solid;
     padding: 5px 15px;
-    margin-top: 37px;
+    transform: translateY(100%);
     display: inline-block;
 }
 

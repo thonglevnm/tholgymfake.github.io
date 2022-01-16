@@ -8,7 +8,6 @@
     <link rel="stylesheet" href="./assets/font/fontawesome-free-5.15.4-web/css/all.css">
     <link rel="stylesheet" href="./assets/css/grid.css">
     <link rel="stylesheet" href="./assets/css/base.css">
-    <link rel="stylesheet" href="./assets/css/responsive.css">
     <link rel="stylesheet" href="./assets/css/header.css">
     <link rel="stylesheet" href="./assets/css/slider.css">
     <link rel="stylesheet" href="./assets/css/content.css">
@@ -19,73 +18,112 @@
     <link rel="stylesheet" href="./assets/css/maxim.css">
     <link rel="stylesheet" href="./assets/css/supp.css">
     <link rel="stylesheet" href="./assets/css/footer.css">
+    <link rel="stylesheet" href="./assets/css/responsive.css">
 
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
     <title>THOL Gym - Fake</title>
 </head>
 <body>
     <div id="Container">
-
+        
         <div id="Header">
             
-          <div class="grid wide">
-              <div class="row">
-                  <div class="col l-4">
-                      <div class="head_img">
-                          <a href="#">
+            <div class="grid wide">
+                <div class="row">
+                  <!-- MOBILE AND TABLET BAR -->
+                    <div class="col l-0 m-1 c-1">
 
-                              <img src="https://tholgym.com.vn/wp-content/uploads/2020/09/Logo-THOL-GymPVCS.png" class="head_img-thol" alt="#">
-                          </a>
+                        
+                        <label for="nav_bar-input" class="nav__bar-btn">
+                            <i class="navbar-icon fas fa-bars"></i>
+                        </label>
+                        
+                        <input type="checkbox"  name="" class="nav_input" id="nav_bar-input">
+                      
+                        <label for="nav_bar-input" class="nav_overlay">
+
+                        </label>
+
+                      <div class="nav_mobile">
+                          <label for="nav_bar-input" class="nav__mobile-close">
+                              <i class="close-nav--mobile fas fa-times"></i>
+                          </label>
+
+                            <ul class="head_nav-list--mobile">
+                                <li class="head_nav-link"><a href="#" class="head_nav--item-mobile">trang chủ
+                                </a></li>
+
+
+                                <li class="head_nav-link"><a href="#" class="head_nav--item-mobile">tập luyện
+                                <i class="head_nav-icon-mobile fas fa-caret-down"></i>   
+                                </a></li>
+
+
+                                <li class="head_nav-link"><a href="#" class="head_nav--item-mobile">thông tin
+                                <i class="head_nav-icon-mobile fas fa-caret-down"></i>   
+                                </a></li>
+
+
+                                <li class="head_nav-link"><a href="#" class="head_nav--item-mobile">dinh dưỡng
+                                <i class="head_nav-icon-mobile fas fa-caret-down"></i>   
+                                </a></li>
+
+
+                                <li class="head_nav-link"><a href="#" class="head_nav--item-mobile">blog
+                                <i class="head_nav-icon-mobile fas fa-caret-down"></i>   
+                                </a></li>
+
+                            </ul>
                       </div>
-                  </div>
+                    </div>
 
-                  <div class="col l-4">
-                    <div class="head_nav">
+                    <div class="col l-4 m-11 c-11">
+                      <div class="head_img">
+                          <a href="#" class="head_img-link">
+                              
+                              <img src="https://tholgym.com.vn/wp-content/uploads/2020/09/Logo-THOL-GymPVCS.png" class="head_img-thol" alt="#">
+                            </a>
+                            
+                        </div>
+                    </div>
+                    
+                    <div class="head_nav l-4 m-0 c-0">
                         <div class="row">
                             <div class="col l-12">
                                 <ul class="head_nav-list">
+
                                         <li><a href="#" class="head_nav--item">trang chủ
                                         </a></li>
-
 
                                         <li><a href="#" class="head_nav--item">tập luyện
                                          <i class="head_nav-icon fas fa-caret-down"></i>   
                                         </a></li>
 
-
                                         <li><a href="#" class="head_nav--item">thông tin
                                          <i class="head_nav-icon fas fa-caret-down"></i>   
                                         </a></li>
-
 
                                         <li><a href="#" class="head_nav--item">dinh dưỡng
                                          <i class="head_nav-icon fas fa-caret-down"></i>   
                                         </a></li>
 
-
                                         <li><a href="#" class="head_nav--item">blog
                                          <i class="head_nav-icon fas fa-caret-down"></i>   
                                         </a></li>
-
                                 </ul>
                             </div>
                         </div>
                     </div>
-                  </div>
 
-                  <div class="col l-4">
+                    <div class="col l-4 m-0 c-0">
                               <div class="head_link-wk">
                                       <a class="head_link-rgt" href="#">ĐĂNG KÍ TẬP THỬ</a>
                               </div>
-                      </div>
-
-                      
-                  </div>
-
-              </div>
-          </div>
-                
+                    </div>
+                </div>
+            </div>
         </div>
+        
         
         <div id="Slider">
             <ul class="slider_img--list">
@@ -188,24 +226,24 @@
                     
                     <div class="handbook_content--verone">
                         
-                            <div class="handbook_content-link col l-3">
+                            <div class="handbook_content-link col l-3 m-6">
                                 <a href="https://tholgym.com.vn/fitness-instruction/" class="handbook_link--img" target="_blank">
                                     <img class="handbook_link--img-thol" src="./assets/img/HDSD-May-Tap.webp" alt="#">
                                 </a>
                             </div>
-                            <div class="handbook_content-link col l-3">
+                            <div class="handbook_content-link col l-3 m-6">
                                 <a href="https://tholgym.com.vn/thol-training/" class="handbook_link--img" target="_blank">
                                     <img class="handbook_link--img-thol" src="./assets/img/DT-AZ.webp" alt="#">
                                 </a>
                             </div>
-                            <div class="handbook_content-link col l-3"> 
+                            <div class="handbook_content-link col l-3 m-6"> 
 
                                 <a href="https://tholgym.com.vn/muscle-groups/" class="handbook_link--img" target="_blank">
                                     <img class="handbook_link--img-thol" src="./assets/img/thehinh-theo-nhom-co-1024x1024.jpg" alt="#">
                                 </a>
                             </div>
 
-                            <div class="handbook_content-link col l-3">
+                            <div class="handbook_content-link col l-3 m-6">
                                 <a href="https://tholgym.com.vn/nutrition/" class="handbook_link--img" target="_blank">
                                     <img class="handbook_link--img-thol" src="./assets/img/DD-TD-1024x1024.jpg" alt="#">
                                 </a>
@@ -215,14 +253,14 @@
                     <div class="handbook_content--vernd">
 
 
-                        <div class="handbook_content-link col l-6">
+                        <div class="handbook_content-link col l-6 m-12">
                         
                             <a href="https://tholgym.com.vn/cardio/" class="handbook_link--img" target="_blank">
                                 <img class="handbook_link--img-thol" style="width: 100%; margin-top: 15px;" src="./assets/img/Banner-Cardio-TimMach-GiamCan.webp" alt="#">
                             </a>
                         </div>
 
-                        <div class="handbook_content-link col l-6">
+                        <div class="handbook_content-link col l-6 m-12">
                             <a href="#" class="handbook_link--img" target="_blank">
                                 <img class="handbook_link--img-thol" style="width: 100%;  margin-top: 15px" src="./assets/img/Banner-BT-Gym-Chuyen-Nu.webp" alt="#">
                             </a>
@@ -273,7 +311,7 @@
             </div>
 
             <div class="knowledge_gym">
-                <h2 class="knowledge_gym-title"><i class="knowledge-icon fas fa-swatchbook"></i>KIẾN THỨC THỂ HÌNH A-Z</h2>
+                <h2 class="knowledge_gym-title"><i class="knowledge-icon fas fa-book"></i>KIẾN THỨC THỂ HÌNH A-Z</h2>
                 <div class="row">
 
                     <div class="col l-4">
@@ -302,36 +340,38 @@
 
             <div class="service_thol">
                 <h2 class="service_thol-title"><i class="service_icon fas fa-people-carry"></i>DỊCH VỤ <span style="color: #ff6600;">THOL GYM</span></h2>
+                
                 <div class="row">
 
-                    <div class="l-3">
-                        <div>
-                            <a href="https://tholgym.com.vn/tholgym.com.vn/pt-personal-trainer" class="service_link">
-                                <img class="service_thol-img" src="./assets/img/banner-pt-personal-1024x1024.jpg" alt="#">
-                            </a>
+                        <div class="l-3 c-12">
+                            <div>
+                                <a href="https://tholgym.com.vn/tholgym.com.vn/pt-personal-trainer" class="service_link">
+                                    <img class="service_thol-img" src="./assets/img/banner-pt-personal-1024x1024.jpg" alt="#">
+                                </a>
+                            </div>
                         </div>
-                    </div>
-                    <div class="l-3">
-                        <div>
-                            <a href="#" class="service_link">
-                                <img class="service_thol-img" src="./assets/img/Banner-SaleSupp.webp" alt="#">
-                            </a>
+                        <div class="l-3 c-12">
+                            <div>
+                                <a href="#" class="service_link">
+                                    <img class="service_thol-img" src="./assets/img/Banner-SaleSupp.webp" alt="#">
+                                </a>
+                            </div>
                         </div>
-                    </div>
-                    <div class="l-3">
-                        <div>
-                            <a href="#" class="service_link">
-                                <img class="service_thol-img" src="./assets/img/banner-sale-mebers-1024x1024.jpg" alt="#">
-                            </a>
+                        <div class="l-3 c-12">
+                            <div>
+                                <a href="#" class="service_link">
+                                    <img class="service_thol-img" src="./assets/img/banner-sale-mebers-1024x1024.jpg" alt="#">
+                                </a>
+                            </div>
                         </div>
-                    </div>
-                    <div class="l-3">
-                        <div>
-                            <a href="#" class="service_link">
-                                <img class="service_thol-img" src="./assets/img/banner-PT-tai-gia-1024x1024.jpg" alt="#">
-                            </a>
+                        <div class="l-3 c-12">
+                            <div>
+                                <a href="#" class="service_link">
+                                    <img class="service_thol-img" src="./assets/img/banner-PT-tai-gia-1024x1024.jpg" alt="#">
+                                </a>
+                            </div>
                         </div>
-                    </div>
+
                 </div>
             </div>
             <div class="branch">
@@ -364,7 +404,10 @@
 
             <h2 class="maxim_title"><i class="icon-maxim fas fa-scroll"></i>TRIẾT LÝ <span style="color: #ff6600;">THOL GYM</span></h2>
             <div class="maxim">
-                    <p class="maxim_content">Bằng tất cả tham vọng và năng lực của mình <span style="font-weight: 500; font-style:normal; color: #ff6600; font-size: 2.2rem;">THOL</span>
+                
+                <div class="maxim-content">
+
+                    <p class="maxim_content-infor">Bằng tất cả tham vọng và năng lực của mình <span style="font-weight: 500; font-style:normal; color: #ff6600; font-size: 2.2rem;">THOL</span>
                          tuân thủ triết lý của người sáng lập <span style="font-weight: 500; color: #ff6600; font-style: normal; font-size: 2.2rem;">Duy Nguyễn</span> – 
                          <span style="font-weight: 500; font-style:normal; color: #ff6600; font-size: 2.2rem;">Gym phục vụ cuộc sống – Khoẻ đẹp – Thành công – 
                             Đẳng cấp</span>. Bất chấp nghề nghiệp, tuổi tác và địa 
@@ -380,8 +423,8 @@
                            trả tiền, còn kiến thức chúng tôi cung cấp cho bạn là
                             miễn phí. Bất cứ khi nào, bất cứ nơi đâu chúng tôi 
                             luôn chào đón các bạn gia nhập vào 
-                        <span style="font-weight: 500; font-style:normal; color: #ff6600; font-size: 2.2rem;">THOL GYM</span> cả online lẫn offline – <span style="font-weight: 500; font-style:normal; color: #ff6600; font-size: 2.2rem;">CEO Duy Nguyễn</span>.</p>
-               
+                    <span style="font-weight: 500; font-style:normal; color: #ff6600; font-size: 2.2rem;">THOL GYM</span> cả online lẫn offline – <span style="font-weight: 500; font-style:normal; color: #ff6600; font-size: 2.2rem;">CEO Duy Nguyễn</span>.</p>
+                </div>
             </div>
 
             <div class="supp">
